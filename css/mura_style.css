@@ -1,0 +1,39 @@
+@charset "utf-8";
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header{
+    background-color: aqua;
+}
+
+.headerRight{
+    float: right;
+    background-color: aquamarine;
+}
+
+.sideber{
+    float: left;
+    background-color: darkcyan;
+}
+
+.contents{
+    float: left;
+    background-color: aquamarine
+}
+
+
+footer{
+    clear: left;
+    background-color: aqua;
+}
+
+.footerLeft{
+    
+}
+
+.footerRight{
+    
+}
