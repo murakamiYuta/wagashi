@@ -1,4 +1,12 @@
 @charset "utf-8";
+@font-face{
+    font-family:'Mutsuki'; src:url('fonts/Mutsuki.ttf')format("truetype");
+    font-family:'Hannari'; src:url('fonts/Hannari.otf')format("opntype");
+}
+body {
+    padding-top: 70px;
+}
+
 .container {
   width: 1170px;
   padding: 0 15px;
@@ -7,16 +15,19 @@
 
 header{
     background-color: aqua;
+    
 }
 
 .headerRight{
     float: right;
     background-color: aquamarine;
+    
 }
 
 .sideber{
     float: left;
     background-color: darkcyan;
+    
 }
 
 .contents{
@@ -31,9 +42,11 @@ footer{
 }
 
 .footerLeft{
+    font-family: 'Mutsuki';
     
 }
 
 .footerRight{
+    font-family: 'Mutsuki';
     
 }
